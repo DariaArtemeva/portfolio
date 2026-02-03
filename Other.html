@@ -1,0 +1,120 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matrix Portfolio</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jersey+10&display=swap" rel="stylesheet">
+     <link rel="shortcut icon" href="images/favicon.svg"/>
+</head>
+
+<body class="light-theme">
+    <div class="matrix-overlay"></div>
+    <header>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html">Projects</a></li>
+                <li><a href="index.html">Contact</a></li>
+            </ul>
+        </nav>
+        <button class="btn">Dark</button>
+    </header>
+    <main>
+         <section class="game-section">
+    <h1>Blender - 3D Models</h1>
+    <p>A small gallery of 3D models I created in Blender</p>
+
+    <div class="gallery">
+      <img src="images/model-1.png" alt="Blender 3D model 1">
+      <img src="images/model-2.png" alt="Blender 3D model 2">
+      <img src="images/model-3.png" alt="Blender 3D model 3">
+      <img src="images/model-4.png" alt="Blender 3D model 4">
+      <img src="images/model-6.png" alt="Blender 3D model 6">
+      <img src="images/model-7.png" alt="Blender 3D model 7">
+      <img src="images/model-8.png" alt="Blender 3D model 8">
+      <img src="images/model-9.png" alt="Blender 3D model 9">
+      <img src="images/model-10.png" alt="Blender 3D model 10">
+      <img src="images/model-11.png" alt="Blender 3D model 11">
+
+    </div>
+  </section>
+  <section class="game-section">
+  <h1>Python Automation "Vending Sales Monitor"</h1>
+
+  <p>
+    A Python automation script that monitors vending machine sales via a web dashboard (Selenium) and sends Telegram alerts when sales increase above a configured threshold.
+  </p>
+
+  <ul>
+    <li>Automated login + navigation to sales statistics page</li>
+    <li>Filters target machines by ID/prefix and parses table rows</li>
+    <li>Normalizes sales values (regex cleanup) and tracks previous state</li>
+    <li>Sends Telegram notifications when sales grow by <strong>N</strong>+ items</li>
+    <li>Runs in a loop with periodic refresh (near real-time monitoring)</li>
+  </ul>
+
+  <p><strong>Tech:</strong> Python, Selenium, Regex, Telegram Bot API</p>
+</section>
+<section class="game-section">
+  <h1>Python / Computer Vision</h1>
+  <p>Selected university projects (Python, OpenCV, TensorFlow/Keras).</p>
+
+  <h2>ANN Digit Recognition (4×7 Grid)</h2>
+  <ul>
+    <li>ANN for digits 0-9 from a 28-feature binary grid</li>
+    <li>Evaluation with accuracy tracking + confusion matrix</li>
+    <li>Robustness testing on noisy/corrupted inputs</li>
+  </ul>
+</section>
+<section class="game-section">
+  <h2>CNN Project: Image Classification</h2>
+  <p>
+    A convolutional neural network (CNN) built in TensorFlow/Keras for multi-class image classification.
+    The project includes dataset preparation, model training, evaluation, and several improvement experiments.
+  </p>
+
+  <ul>
+    <li>Dataset pipeline + train/validation split and preprocessing</li>
+    <li>CNN architecture (Conv + Pool blocks, Dense head) with tuning of hyperparameters</li>
+    <li>Training monitoring: loss/accuracy curves</li>
+    <li>Evaluation: confusion matrix + classification report</li>
+    <li>Optimization experiments: augmentation, dropout, deeper model, learning-rate scheduling (ReduceLROnPlateau)</li>
+  </ul>
+
+  <p><strong>Tech:</strong> Python, TensorFlow/Keras, NumPy, Matplotlib</p>
+</section>
+
+<section class="game-section">
+  <h1>Java Projects</h1>
+
+  <ul>
+    <li>
+      <strong>Spring + JPA + REST Server</strong> – inventory and shopping cart management backend (CRUD + REST APIs).
+    </li>
+    <li>
+      <strong>Desktop Puzzle Game (AWT/Swing)</strong> – pipe-rotation puzzle with interactive UI and game logic.
+    </li>
+    <li>
+      <strong>Console Game "Bang!"</strong> – console version of the card game with OOP-based game mechanics.
+    </li>
+    <li>
+      <strong>JPA/REST Web Apps</strong> – smaller apps (e.g., canteen, library) built around REST endpoints and database entities.
+    </li>
+  </ul>
+</section>
+
+    </main>
+    <footer>
+        <p>2025 My Portfolio. All rights reserved.</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+
+</html>
+

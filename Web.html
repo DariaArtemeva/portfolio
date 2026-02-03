@@ -1,0 +1,132 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matrix Portfolio</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jersey+10&display=swap" rel="stylesheet">
+     <link rel="shortcut icon" href="images/favicon.svg"/>
+</head>
+
+<body class="light-theme">
+    <div class="matrix-overlay"></div>
+    <header>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html">Projects</a></li>
+                <li><a href="index.html">Contact</a></li>
+            </ul>
+        </nav>
+        <button class="btn">Dark</button>
+    </header>
+    <main>
+       <section class="game-section">
+    <h1>Web App "LaTeX Task Manager"</h1>
+     <video width="640" height="480" autoplay muted>
+  <source src="videos/video_zaverecne_zadanie.mp4" type="video/mp4">
+</video>
+    <p>"LaTeX Task Manager" - a bilingual (EN/SK) web app for streamlined educational workflows.</p>
+    <p>Teachers: Log in, switch languages via flags, upload .tex files for task generation, view/export student lists in CSV, access individual student info/tasks.</p>
+    <p>Students: Log in, generate tasks from selected files (with images), submit solutions via textarea, logout easily.</p>
+    <ul>
+        <li>Multi-language support with flag selectors</li>
+        <li>Secure login and role-based features</li>
+        <li>PDF generation for user documentation</li>
+    </ul>
+    <p>Powered by Php, Bootstrap for responsive UI, with jsPDF for docs export.</p>
+</section>>
+   <section class="game-section">
+    <h1>Restaurant Menu API</h1>
+    <p>"Restaurant Menu API" - a simple RESTful PHP API for retrieving and managing daily menus across multiple restaurants.</p>
+    <p>Key endpoints:</p>
+    <ul>
+        <li>GET: Fetch JSON menu data for all restaurants by day/items/prices</li>
+        <li>PUT/POST: Update specific item prices (zero-based index)</li>
+        <li>POST: Add new items to every day</li>
+        <li>DELETE: Remove entire restaurants</li>
+    </ul>
+    <p>No authentication, with 400/404 error handling. Hosted on STU server</p>
+</section>
+<section class="game-section">
+    <h1>Web Game "Multiplayer Pong"</h1>
+    <p>"Multiplayer Pong" - thrilling real-time WebSocket Pong for 2 players, inspired by classic arcade!</p>
+    <p>Enter lobby by name, see player count. Field auto-resizes: 2-player classic, 4-player arena!</p>
+    <p>Key features:</p>
+    <ul>
+        <li>WASD/arrows paddle control—defend as ball accelerates</li>
+        <li>3 misses = eliminated (wall bounces ball)</li>
+        <li>Live bounce counter & remaining lives per player</li>
+        <li>Last player standing wins—players can leave anytime</li>
+    </ul>
+</section>
+<section class="game-section">
+    <h1>Web Portal "Location Insights"</h1>
+    <p>"Location Insights Portal"- dynamic PHP web app where users enter a city/place to instantly get weather forecast (with nearest-city fallback), GPS coordinates, country, and its capital.</p>
+    <p>Explore site-wide stats:</p>
+    <ul>
+        <li>Visitor counts by country (flags, names, totals)—unique IP/day</li>
+        <li>Clickable countries reveal city breakdowns</li>
+        <li>Map with visitor location dots (Google/OpenStreet integration)</li>
+        <li>Local time-based visit buckets (morning, afternoon, evening, night)</li>
+    </ul>
+    <p>Powered by PHP/CURL/OpenWeatherMap API</p>
+</section>
+<section class="game-section">
+  <h1>PWA Game "Shapes For Kids"</h1>
+
+  <video width="640" height="480" autoplay muted controls>
+    <source src="videos/front.mp4" type="video/mp4">
+  </video>
+
+  <p>
+    "Shapes For Kids" - a kid-friendly Progressive Web App where children drag and drop shapes into matching holes to learn basic geometry and motor skills.
+    Works smoothly on touch devices and supports offline play.
+  </p>
+
+  <ul>
+    <li>Drag & drop gameplay (touch-friendly)</li>
+    <li>PWA features: installable + offline support</li>
+    <li>Simple UX designed for children (clear visuals, instant feedback)</li>
+    <li>Responsive layout for mobile/tablet/desktop</li>
+  </ul>
+</section>
+
+<section class="game-section">
+    <h1>Web Site "Maryushka Atelier"</h1>
+    <p>Just a web page for my mom's Moscow tailoring studio.</p>
+    <a href = "https://dariaartemeva.github.io/atelye1/">LINK</a>
+
+</section>
+
+<section class="game-section">
+  <h1>Other Web Projects</h1>
+
+  <ul>
+    <li>
+      <strong>Photo Gallery Website</strong> – responsive gallery with photo locations (each image includes its place/geo info for context).
+  
+    </li>
+    <li>
+      <strong>Google Charts Dashboard</strong> – interactive data visualization page with charts and basic filtering (course project).
+    </li>
+    <li>
+      <strong>Ordering Form + Validation</strong> – web form with client-side validation, error handling, and responsive layout (HTML/CSS/JS).
+    </li>
+  </ul>
+</section>
+
+    </main>
+    <footer>
+        <p>© 2025 My Portfolio. All rights reserved.</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+
+</html>
+

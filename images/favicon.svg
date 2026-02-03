@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <!-- background -->
+  <rect width="64" height="64" rx="14" fill="#050B07"></rect>
+
+  <!-- subtle grid -->
+  <g opacity="0.18" stroke="#18FF7A" stroke-width="1">
+    <path d="M8 18H56M8 32H56M8 46H56"></path>
+    <path d="M18 8V56M32 8V56M46 8V56"></path>
+  </g>
+
+  <!-- main glyph -->
+  <text x="14" y="42" font-size="26" font-family="monospace" fill="#18FF7A" font-weight="700">
+    DA
+  </text>
+
+  <!-- cursor block -->
+  <rect x="44" y="30" width="6" height="16" rx="2" fill="#18FF7A" opacity="0.9"></rect>
+</svg>
