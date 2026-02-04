@@ -278,3 +278,105 @@ h1.glitch {
   border-radius: 12px;
   display: block;
 }
+/* =========================
+   Mobile responsiveness fixes
+   ========================= */
+
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/
+header {
+  padding-top: 90px;
+}
+
+
+.game-section {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+.intro {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 900px;
+  padding: 0 20px;
+  display: block;
+}
+
+
+video, iframe, img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+.game-section video {
+  width: 100%;
+  max-width: 640px;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+}
+
+
+.gallery {
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+
+@media screen and (max-width: 768px) {
+  nav {
+    padding: 10px 0;
+  }
+
+  header {
+    padding-top: 130px; 
+  }
+
+  .game-section {
+    padding: 16px;
+  }
+
+  .gallery {
+    grid-template-columns: 1fr;
+  }
+
+  .btn {
+    top: 12px;
+    right: 12px;
+    height: 40px;
+    width: 40px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  header {
+    padding-top: 150px;
+  }
+
+  .game-section {
+    padding: 14px;
+  }
+
+  .nav-links li a {
+    font-size: 16px;
+    padding: 8px 10px;
+  }
+
+  .btn {
+    height: 36px;
+    width: 36px;
+  }
+}
